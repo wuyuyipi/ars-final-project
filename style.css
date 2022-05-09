@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+html{
+    background-color: #111111;
+    color:#f9f9f9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position:fixed;
+    top:0;
+    width:100%;
+    text-align: center;
+    background-color: #0a0a0c;
+    color:#b28944;
+    font-family: 'Eczar', serif;
+    z-index:10;
+    
+}
+
+#left {
+    background-color: azure;
+    width:20%;
+    margin-left:3%;
+}
+
+#right {
+    background-color: aquamarine;
+    width:20%;
+    margin-left:77%;
+}
+
+#body-text{
+    margin:0 auto;
+    width:80%;
+    z-index:-10;
+}
+
+
+
+
+footer {
+    position:fixed; 
+    width:100%; 
+    bottom:0;
+    font-size: 10px;
+    line-height: 9px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+#footer-left {
+    width:45%;
+    margin-left:2%;
+    text-align:left;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+#footer-right {
+    width:45%;
+    margin-left:3%;
+    text-align:right;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
