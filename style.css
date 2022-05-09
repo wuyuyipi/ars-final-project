@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 html{
-    background-color: #111111;
+    background-color: #292929;
     color:#f9f9f9;
     font-family: 'Montserrat', sans-serif;
 }
@@ -10,10 +10,12 @@ header {
     position:fixed;
     top:0;
     width:100%;
+    left:0;
     text-align: center;
     background-color: #0a0a0c;
     color:#b28944;
     font-family: 'Eczar', serif;
+    font-size: 12px;
     z-index:10;
     
 }
@@ -32,17 +34,17 @@ header {
 
 #body-text{
     margin:0 auto;
-    width:80%;
+    width:70%;
     z-index:-10;
 }
-
-
 
 
 footer {
     position:fixed; 
     width:100%; 
     bottom:0;
+    left:0;
+    background-color: #0a0a0c;
     font-size: 10px;
     line-height: 9px;
     display: flex;
@@ -64,7 +66,7 @@ footer {
 
 #footer-right {
     width:45%;
-    margin-left:3%;
+    margin-left:6%;
     text-align:right;
     order: 0;
     flex: 0 1 auto;
